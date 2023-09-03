@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: O diretório intermediário (x64\Debug\) contém arquivos compartilhados de outro projeto (WinGame.vcxproj). Isso pode levar a um comportamento incorreto de limpeza e recompilação.
+  Home.cpp
+  main.cpp
+  Gerando Código...
+  WinGame.vcxproj -> C:\repositories\GamesLibrary\PacMan\x64\Debug\Pacman.exe

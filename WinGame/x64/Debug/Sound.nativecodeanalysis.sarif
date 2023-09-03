@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/sound.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "8772cd6690e4969deeeaa0815c57fc95180f281f2efa4e1f08dbdeb4a270c6d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/sound.h"
+          },
+          "hashes": {
+            "sha-256": "0291d22b8c88c2cd27db37e41006c9ab3625eddc164019ca504a391e71f77aed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/types.h"
+          },
+          "hashes": {
+            "sha-256": "257da47babd4ceb11e22a1dc81d085bb68aeae6b5030123a354a9a07c6ae7e65"
+          }
+        }
+      ]
+    }
+  ]
+}

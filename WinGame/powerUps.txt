@@ -1,0 +1,12 @@
+// PacMan
+// Criação:     13 Jul 2023
+// Descrição:   Nível 1 comidas
+//
+// Informações das comidas especiais
+// posX posY
+// a organização é feita de baixo para cima e parte sempre do centro da bola
+
+42 80
+583 80
+42 513
+583 513

@@ -1,0 +1,157 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Estouro aritmético: usando o operador '*' em um valor de byte 4 e, em seguida, convertendo o resultado em um valor de byte 8. Converta o valor no tipo mais amplo antes de chamar o operador '*' para evitar estouro (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/repositories/GamesLibrary/PacMan/WinGame/Renderer.cpp"
+                },
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 37,
+                  "endLine": 144,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Renderer::BeginPixels",
+                  "decoratedName": "?BeginPixels@Renderer@@QEAAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Estouro aritmético: usando o operador '*' em um valor de byte 4 e, em seguida, convertendo o resultado em um valor de byte 8. Converta o valor no tipo mais amplo antes de chamar o operador '*' para evitar estouro (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/repositories/GamesLibrary/PacMan/WinGame/Renderer.cpp"
+                },
+                "region": {
+                  "startLine": 1047,
+                  "startColumn": 58,
+                  "endLine": 1047,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Renderer::RenderBatch",
+                  "decoratedName": "?RenderBatch@Renderer@@AEAAXPEAUID3D11ShaderResourceView@@PEAPEAUSpriteData@@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/repositories/GamesLibrary/PacMan/WinGame/Renderer.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "cb8ee098a952d109caedf83af29c9248e2945cd720af025e153abdf18196d327"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/renderer.h"
+          },
+          "hashes": {
+            "sha-256": "38786956a9b02241721f046b610840a463fa9c297b79841349c222d6ad39ce4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/window.h"
+          },
+          "hashes": {
+            "sha-256": "c66f9815395b15c923e0d68b4588d932bb530af605a3b005a192f687c510c626"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/types.h"
+          },
+          "hashes": {
+            "sha-256": "257da47babd4ceb11e22a1dc81d085bb68aeae6b5030123a354a9a07c6ae7e65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "e8d0f97dc6ff0ebe8545213ac9e092bedfeab80655f9b8c0b3b736bf6ec4ef39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/sprite.h"
+          },
+          "hashes": {
+            "sha-256": "6dc657ae07f561d8942d0ad177d09cec961acb64bf120d71a8d2bb1bc5b9c583"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/image.h"
+          },
+          "hashes": {
+            "sha-256": "5e787242a0266b34294c8bdded8955fcae135d69c7b3ef5f5d494937d914948c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/texture.h"
+          },
+          "hashes": {
+            "sha-256": "9e4c78c81b86c4c15b3e2efe0be98930ca217e6cbc539de9eff017edc6ebfd4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/geometry.h"
+          },
+          "hashes": {
+            "sha-256": "1c8b84e3e0f7f6a4a5f749e5db33b4b1718369bcf960c1700cabd7add40817e4"
+          }
+        }
+      ]
+    }
+  ]
+}

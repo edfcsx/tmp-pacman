@@ -1,0 +1,6 @@
+Perguntas
+
+Perguntar ao professor se no caso do desenho de mapas de um jogo
+é possivel manter no buffer objetos que foram desenhados
+em uma determinada profundidade assim mantendo os objetos 
+fixos em tela.

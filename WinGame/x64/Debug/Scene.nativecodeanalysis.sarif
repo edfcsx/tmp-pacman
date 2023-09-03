@@ -1,0 +1,139 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/scene.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "536de85514e4e50ff4cd40b0ec2238279c6a11cf2d4a01113ff822283685ece1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/scene.h"
+          },
+          "hashes": {
+            "sha-256": "b7573914fdc945d017328d18695e46c7547325c7f59cbadb3c8505d60528e49a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/geometry.h"
+          },
+          "hashes": {
+            "sha-256": "1c8b84e3e0f7f6a4a5f749e5db33b4b1718369bcf960c1700cabd7add40817e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/types.h"
+          },
+          "hashes": {
+            "sha-256": "257da47babd4ceb11e22a1dc81d085bb68aeae6b5030123a354a9a07c6ae7e65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/object.h"
+          },
+          "hashes": {
+            "sha-256": "18ce910fe27ba04270a419ce699d27a2284a0e4d930ef7c016eb6956b7531287"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/game.h"
+          },
+          "hashes": {
+            "sha-256": "a6fe83c827f2696efc53134ba7bfd6b3c6bbcca9e867fd7f390061ab73f0200f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/window.h"
+          },
+          "hashes": {
+            "sha-256": "c66f9815395b15c923e0d68b4588d932bb530af605a3b005a192f687c510c626"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/engine.h"
+          },
+          "hashes": {
+            "sha-256": "aa1a579dcaf8f70df93c5cb7def6f3dfcde9f8abc8d11190de0319461d3154e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "e8d0f97dc6ff0ebe8545213ac9e092bedfeab80655f9b8c0b3b736bf6ec4ef39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/renderer.h"
+          },
+          "hashes": {
+            "sha-256": "38786956a9b02241721f046b610840a463fa9c297b79841349c222d6ad39ce4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/sprite.h"
+          },
+          "hashes": {
+            "sha-256": "6dc657ae07f561d8942d0ad177d09cec961acb64bf120d71a8d2bb1bc5b9c583"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/image.h"
+          },
+          "hashes": {
+            "sha-256": "5e787242a0266b34294c8bdded8955fcae135d69c7b3ef5f5d494937d914948c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/texture.h"
+          },
+          "hashes": {
+            "sha-256": "9e4c78c81b86c4c15b3e2efe0be98930ca217e6cbc539de9eff017edc6ebfd4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/timer.h"
+          },
+          "hashes": {
+            "sha-256": "6a0dab6f1eeb9d79d5b58adde789cf944d8d74e637b5e2058806190238d34679"
+          }
+        }
+      ]
+    }
+  ]
+}

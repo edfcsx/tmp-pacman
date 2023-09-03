@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32215.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/image.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b4253447653033933cdbcb7662fd673eaa0c60697a246ecd342743b7c256331a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/image.h"
+          },
+          "hashes": {
+            "sha-256": "5e787242a0266b34294c8bdded8955fcae135d69c7b3ef5f5d494937d914948c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/types.h"
+          },
+          "hashes": {
+            "sha-256": "257da47babd4ceb11e22a1dc81d085bb68aeae6b5030123a354a9a07c6ae7e65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/texture.h"
+          },
+          "hashes": {
+            "sha-256": "9e4c78c81b86c4c15b3e2efe0be98930ca217e6cbc539de9eff017edc6ebfd4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "e8d0f97dc6ff0ebe8545213ac9e092bedfeab80655f9b8c0b3b736bf6ec4ef39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repositories/gameslibrary/pacman/wingame/window.h"
+          },
+          "hashes": {
+            "sha-256": "c66f9815395b15c923e0d68b4588d932bb530af605a3b005a192f687c510c626"
+          }
+        }
+      ]
+    }
+  ]
+}
